@@ -1,0 +1,21 @@
+m文件说明：
+
+svmtest.m:脚本文件作为主函数，运行两种核函数下的分类实例
+
+mysvm.m:函数文件，训练svm模型，输出X,Y,w,b.alpha,kernel_func
+
+LinearKnernel.m:函数文件，计算线性核函数
+
+GassianKnernel.m:函数文件，计算高斯核函数
+
+predict_svm.m:函数文件，给定svm模型和待分类样本，输出分类结果
+
+plot_Trainset.m:函数文件，对已知类别样本可视化
+
+plot_linearbound.m:函数文件，对线性svm分类边界可视化
+
+plot_bound.m:对一般非线性边界可视化
+
+data1.mat 为线性分类样本
+
+data2,mat 为非线性分类样本
