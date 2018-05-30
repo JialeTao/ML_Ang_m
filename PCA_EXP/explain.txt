@@ -1,0 +1,22 @@
+displayData.m 样本脸数据可视化
+
+drawLine.m 画直线（二位数据压缩过程可视化）
+
+featureNormalize.m 特征标准化
+
+pca.m PCA算法(由SVD计算特征向量和特征值）
+
+projectData.m 对原始数据按特征向量投影
+
+recoverData.m 由投影数据恢复原始数据
+
+pca_exp.m 系列实验过程脚本文件
+
+data1.mat 二维数据
+
+faces.mat 样本脸（5000*1024），每个脸为32*32像素，
+
+每一行表示一张脸（按列排序）
+
+
+
